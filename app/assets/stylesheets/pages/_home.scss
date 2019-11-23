@@ -1,25 +1,62 @@
 
 
 .home {
-  height: 100vh;
+  min-height: 100vh;
   background: linear-gradient(#4c99aa, #98c0c8);
 
 }
 
+
+
 h1 {
   color: white;
   font-family: 'Lora', serif;
-  font-size: 40px;
+  font-size: 60px;
+  line-height: 90px;
 }
 
 h2 {
   color: white;
   font-family: 'Lora', serif;
+  font-size: 28px;
+  line-height: 90px;
 }
 
 .profile {
   object-fit: cover;
   width: 200px;
   height: 200px;
+}
+
+@media only screen and (max-width: 768px) {
+
+h1 {
+  font-size: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+}
+
+}
+
+@media only screen and (max-width: 400px) {
+
+h1 {
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 23px;
+  line-height: 30px;
+  text-align: center;
+}
+
 }
 
