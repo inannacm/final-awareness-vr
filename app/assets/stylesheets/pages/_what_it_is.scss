@@ -25,16 +25,17 @@ p {
 
 
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 768px) {
 
-.large {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
+
+
 
 }
 
+@media only screen and (max-width: 414px) {
+
+
+}
 
 
 

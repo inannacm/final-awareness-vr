@@ -20,3 +20,25 @@ p {
 .container {
   width: 700px;
 }
+
+
+@media only screen and (max-width: 768px) {
+
+
+
+}
+
+@media only screen and (max-width: 414px) {
+
+
+.container {
+  width: 400px;
+
+}
+
+.video {
+  width: 350px;
+}
+
+
+}
