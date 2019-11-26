@@ -26,3 +26,12 @@ p {
  color: #121212;
  font-size: 15px;
 }
+
+@media only screen and (max-width: 414px) {
+
+#image-1 img {
+  width: 100px;
+}
+
+
+}
